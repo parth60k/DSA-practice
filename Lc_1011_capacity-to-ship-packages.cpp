@@ -2,7 +2,7 @@
 using namespace std;
 int noDays(vector<int>&weights,int capacity)
     {
-        int days=1,load=0;
+        int days=1,load=0; 
         for(int i=0;i<weights.size();i++)
         {
             if(load+weights[i]>capacity)
